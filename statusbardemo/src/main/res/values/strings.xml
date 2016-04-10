@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Statusbardemo</string>
+    <string name="phone_sdk_version">当前手机的系统版本为：%s</string>
+</resources>
