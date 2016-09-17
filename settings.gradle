@@ -1,1 +1,1 @@
-include ':app', ':statusbardemo'
+include ':statusbardemo', ':swrvdemo', ':tablayoutdemo'
