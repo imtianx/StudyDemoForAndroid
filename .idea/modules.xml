@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/A02-swrvdemo/A02-swrvdemo.iml" filepath="$PROJECT_DIR$/A02-swrvdemo/A02-swrvdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/A03-tablayoutdemo/A03-tablayoutdemo.iml" filepath="$PROJECT_DIR$/A03-tablayoutdemo/A03-tablayoutdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/A04-databindingdemo/A04-databindingdemo.iml" filepath="$PROJECT_DIR$/A04-databindingdemo/A04-databindingdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A05-bluetoothchatdemo/A05-bluetoothchatdemo.iml" filepath="$PROJECT_DIR$/A05-bluetoothchatdemo/A05-bluetoothchatdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A06-nettydemo/A06-nettydemo.iml" filepath="$PROJECT_DIR$/A06-nettydemo/A06-nettydemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyDemoForAndroid.iml" filepath="$PROJECT_DIR$/StudyDemoForAndroid.iml" />
     </modules>
   </component>

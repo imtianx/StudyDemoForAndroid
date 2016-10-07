@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/A02-swrvdemo" />
             <option value="$PROJECT_DIR$/A03-tablayoutdemo" />
             <option value="$PROJECT_DIR$/A04-databindingdemo" />
+            <option value="$PROJECT_DIR$/A05-bluetoothchatdemo" />
+            <option value="$PROJECT_DIR$/A06-nettydemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
