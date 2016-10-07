@@ -3,13 +3,13 @@
 
 如下效果图：
 
-![img2](https://github.com/txadf/StudyDemoForAndroid/blob/master/statusbardemo/art/1.jpg)
-![img2](https://github.com/txadf/StudyDemoForAndroid/blob/master/statusbardemo/art/2.jpg)
+![img2](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A01-statusbardemo/art/1.jpg)
+![img2](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A01-statusbardemo/art/2.jpg)
 
 <br/>
 具体使用：<br/>
 
-* 导入 [SystemBarTintManager](https://github.com/txadf/StudyDemoForAndroid/blob/master/statusbardemo/src/main/java/cn/imtianx/statusbardemo/SystemBarTintManager.java) 类 <br/>
+* 导入 [SystemBarTintManager](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A01-statusbardemo/src/main/java/cn/imtianx/statusbardemo/SystemBarTintManager.java) 类 <br/>
 * 在要设置为沉浸式的activity的onCreate()方法中添加如下代码：<br/>
 ```
 	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) 

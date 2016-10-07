@@ -1,1 +1,1 @@
-include ':statusbardemo', ':swrvdemo', ':tablayoutdemo'
+include ':A01-statusbardemo', ':A02-swrvdemo', ':A03-tablayoutdemo', ':A04-databindingdemo'

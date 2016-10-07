@@ -140,9 +140,9 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 到此，已经完成了，TabLayout的使用和TabHost的使用类似，但它更为方便，使用起来较为简单。
-[Demo下载](https://github.com/txadf/StudyDemoForAndroid/blob/master/tablayoutdemo)
+[Demo下载](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo)
 如下展示效果：
-![](https://github.com/txadf/StudyDemoForAndroid/blob/master/tablayoutdemo/art/TabLayout+ViewPager-create-tab.gif)
+![](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo/art/TabLayout+ViewPager-create-tab.gif)
 
 
 

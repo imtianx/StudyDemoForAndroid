@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/A01-statusbardemo/A01-statusbardemo.iml" filepath="$PROJECT_DIR$/A01-statusbardemo/A01-statusbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A02-swrvdemo/A02-swrvdemo.iml" filepath="$PROJECT_DIR$/A02-swrvdemo/A02-swrvdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A03-tablayoutdemo/A03-tablayoutdemo.iml" filepath="$PROJECT_DIR$/A03-tablayoutdemo/A03-tablayoutdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/A04-databindingdemo/A04-databindingdemo.iml" filepath="$PROJECT_DIR$/A04-databindingdemo/A04-databindingdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyDemoForAndroid.iml" filepath="$PROJECT_DIR$/StudyDemoForAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StudyDemoForAndroid.iml" filepath="$PROJECT_DIR$/StudyDemoForAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/statusbardemo/statusbardemo.iml" filepath="$PROJECT_DIR$/statusbardemo/statusbardemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/statusbardemo/statusbardemo.iml" filepath="$PROJECT_DIR$/statusbardemo/statusbardemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swrvdemo/swrvdemo.iml" filepath="$PROJECT_DIR$/swrvdemo/swrvdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" filepath="$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" />
     </modules>
   </component>
 </project>

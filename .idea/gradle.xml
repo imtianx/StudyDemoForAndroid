@@ -9,19 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/statusbardemo" />
-            <option value="$PROJECT_DIR$/swrvdemo" />
-            <option value="$PROJECT_DIR$/tablayoutdemo" />
+            <option value="$PROJECT_DIR$/A01-statusbardemo" />
+            <option value="$PROJECT_DIR$/A02-swrvdemo" />
+            <option value="$PROJECT_DIR$/A03-tablayoutdemo" />
+            <option value="$PROJECT_DIR$/A04-databindingdemo" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/statusbardemo" />
-            <option value="$PROJECT_DIR$/swrvdemo" />
-            <option value="$PROJECT_DIR$/tablayoutdemo" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

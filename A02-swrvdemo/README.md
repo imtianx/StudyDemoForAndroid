@@ -2,7 +2,7 @@
 另外还使用了CardView（一个容器类布局，它继承自FrameLayout）。<br/>
 效果图如下：
 
-![img1](https://github.com/txadf/StudyDemoForAndroid/blob/master/swrvdemo%2Fart%2F1.gif)
+![img1](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A02-swrvdemo%2Fart%2F1.gif)
 
 
 ##### 具体的使用：
@@ -23,7 +23,7 @@ card_view:cardCornerRadius="4dp"
 ```
 <br>这里，RecyclerView 的每一个item都是一个CardView<br><br>
 * 2.SwipeRefreshLayout<br>
-它在V4 包下，使用代码如下：[activity_main.xml](https://github.com/txadf/StudyDemoForAndroid/blob/master/swrvdemo%2Fsrc%2Fmain%2Fres%2Flayout%2Factivity_main.xml)<br>
+它在V4 包下，使用代码如下：[activity_main.xml](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A02-swrvdemo%2Fsrc%2Fmain%2Fres%2Flayout%2Factivity_main.xml)<br>
 
         <?xml version="1.0" encoding="utf-8"?>
         <android.support.v4.widget.SwipeRefreshLayout
@@ -57,7 +57,7 @@ card_view:cardCornerRadius="4dp"
 ```
 compile 'com.android.support:recyclerview-v7:23.3.0'
 ``` 
-<br>编写自己的adapter，继承自 RecyclerView.Adapter ，实现三个方法：(具体内容见：[RvAdapter.java](https://github.com/txadf/StudyDemoForAndroid/blob/master/swrvdemo%2Fsrc%2Fmain%2Fjava%2Fcn%2Fimtianx%2Fswrvdemo%2FRvAdapter.java))<br>
+<br>编写自己的adapter，继承自 RecyclerView.Adapter ，实现三个方法：(具体内容见：[RvAdapter.java](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A02-swrvdemo%2Fsrc%2Fmain%2Fjava%2Fcn%2Fimtianx%2Fswrvdemo%2FRvAdapter.java))<br>
        
         /**
          * 将布局转换成view 并传递给RecyclerView 封装好的 ViewHolder
@@ -138,5 +138,4 @@ compile 'com.android.support:recyclerview-v7:23.3.0'
         }
     
     最后在activity中设置监听。
-    具体见：[MainActivity.java](https://github.com/txadf/StudyDemoForAndroid/blob/master/swrvdemo%2Fsrc%2Fmain%2Fjava%2Fcn%2Fimtianx%2Fswrvdemo%2FMainActivity.java)
-    
+  具体见:[MainActivity.java](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A02-swrvdemo%2Fsrc%2Fmain%2Fjava%2Fcn%2Fimtianx%2Fswrvdemo%MainActivity.java)
