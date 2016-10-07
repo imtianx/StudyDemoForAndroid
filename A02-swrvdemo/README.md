@@ -138,4 +138,4 @@ compile 'com.android.support:recyclerview-v7:23.3.0'
         }
     
     最后在activity中设置监听。
-  具体见:[MainActivity.java](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A02-swrvdemo%2Fsrc%2Fmain%2Fjava%2Fcn%2Fimtianx%2Fswrvdemo%MainActivity.java)
+  具体见:[MainActivity.java](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A02-swrvdemo/src/main/java/cn/imtianx/swrvdemo/MainActivity.java)
