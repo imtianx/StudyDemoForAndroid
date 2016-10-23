@@ -1,6 +1,7 @@
 在degingn库中有TabLayout控件，可以方便的实现tab切换的效果，配合ViewPager.
 <!--more-->
-
+如下展示效果：
+![](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo/art/TabLayout+ViewPager-create-tab.gif)
 ### 1. 添加依design赖库
 ```
  compile 'com.android.support:design:23.4.0'
@@ -139,10 +140,37 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
+### 7. 带icon的tab
+效果图如下：
+![](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo/art/TabLayout+ViewPager-create-tab_icon.gif)
+
+- 1.布局基本没有变，只是在上面的布局基础下，将ViewPager和TabLayout的上下位置调换下。添加如下属性将TabLayout的指示条高度设为0，不可见：
+```
+app:tabIndicatorHeight="0dp"
+```
+- 2.为每个tab添加selector。以第一个tab为例，具体如下：
+```
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/home_pressed" android:state_selected="true"/>
+    <item android:drawable="@drawable/home_normal"/>
+
+</selector>
+```
+- 3.IconTabActivity中将定义的selector设置为TabLayout的icon:
+
+```
+mTabLayout.getTabAt(0).setIcon(getResources().getDrawable(R.drawable.tab_hall_bg));
+mTabLayout.getTabAt(1).setIcon(getResources().getDrawable(R.drawable.tab_joined_bg));
+mTabLayout.getTabAt(2).setIcon(getResources().getDrawable(R.drawable.tab_me_bg));
+```
+
 到此，已经完成了，TabLayout的使用和TabHost的使用类似，但它更为方便，使用起来较为简单。
-[Demo下载](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo)
-如下展示效果：
-![](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo/art/TabLayout+ViewPager-create-tab.gif)
+[Demo下载](https://github.com/imtianx/StudyDemoForAndroid/blob/master/A03-tablayoutdemo)<br>
+注：demo中,不带icon:的是MainActivity，带icon的是IconTabActivity。可在AndroidManifest切换运行查看
+
 
 
 
